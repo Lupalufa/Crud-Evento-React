@@ -1,0 +1,39 @@
+.card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 3rem;
+    padding-bottom: 50px;
+    background-color: #fff;
+    width: 20rem;
+    height: 25rem;
+    border-radius: 1.25rem;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+
+
+.card .titulo {
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: 0.8rem;
+}
+
+.card .paragrafo {
+    padding: 5px;
+    text-align: center;
+}
+
+.card > .imagem {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+}
+
+.card .paragrafoDataHora {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
