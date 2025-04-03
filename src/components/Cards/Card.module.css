@@ -1,12 +1,16 @@
-.card {
+.cardContainer{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 3rem;
+    flex-wrap: wrap;
+}
+
+.card {
+    overflow: hidden;
+    margin: 20px;
     padding-bottom: 50px;
     background-color: #fff;
-    width: 20rem;
-    height: 25rem;
+    width: 325px;
     border-radius: 1.25rem;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     font-family: sans-serif;
