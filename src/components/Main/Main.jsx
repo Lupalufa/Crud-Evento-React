@@ -5,20 +5,25 @@ import database from "../../data/database"
 import Card from "../Cards/Card"
 
 function Main(){
-    const [eventos] = useState(database.listarEventos)
+    const [eventos] = useState(database.listarEventos) 
 
     return (
+        <>
         <main>
             {
                 eventos.map((cards, index) => (
                     
                     <section>
-                        <Card key={index} cards ={cards} />
+                        <Card key={index} cards={cards} />
                     </section>
                 ))
             }
 
         </main>
+            <div>
+                <h4>Olá</h4>
+            </div>
+        </>
     )
 }
 

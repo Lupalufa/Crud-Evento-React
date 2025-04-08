@@ -27,9 +27,16 @@ h1 {
     text-decoration: none;
     color: white;
     font-family: sans-serif;
+    transition: 100ms;
 }
 
 img {
     width: 300px;
     height: auto;
+}
+
+.divisao > a:hover {
+    text-decoration: underline;
+    transition: 100ms;
+    color: #FF007F;
 }

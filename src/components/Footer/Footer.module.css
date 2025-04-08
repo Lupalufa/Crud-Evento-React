@@ -4,6 +4,7 @@ footer {
     text-align: center;
     color: white;
     font-family: sans-serif;
-    position: sticky;
+    position: fixed;
     bottom: 0;
+    width: 100%;
 }

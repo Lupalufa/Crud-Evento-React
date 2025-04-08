@@ -1,6 +1,7 @@
 import React from "react";
 import style from "./HeaderEventos.module.css"
 import img from "../../assets/img/PartyTrack.jpg"
+import { Link } from "react-router-dom";
 
 function HeaderEvento() {
     return (
@@ -10,9 +11,10 @@ function HeaderEvento() {
                 <h1>PartyTrack</h1>
             </header>
             <div className={style.divisao}> 
-                <a href="#">Cadastrar Evento</a>
-                <a href="#">Lista de Eventos</a>
-                <a href="#">Editar Evento</a>
+                <Link to="/FormularioCadastro">Cadastrar Eventos</Link>
+                <Link to="/Eventos">Listar Eventos</Link>
+                <Link to="/EditarEvento">Editar Eventos</Link>
+
             </div>
         </>
     )

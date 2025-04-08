@@ -5,7 +5,7 @@ function Remover(){
     const [eventos] = useState(database.deletarEvento)
     return (
         <>
-        <button onClick={database.deletarEvento}>Excluir</button>
+        <button onClick={eventos}>Excluir</button>
         </>
     )
 }
